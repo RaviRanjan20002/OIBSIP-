@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: hwb(0 7% 93%);
+    background-repeat: no-repeat;
+}
+.head{
+    width:100%;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    border:2px salmon solid;
+    position:sticky;
+    top:2px;
+    border-radius: 10px;
+}
+.head:hover{
+    box-shadow: 5px 8px 10px rgb(209, 231, 9);
+}
+nav{
+   width:70%;
+   display:flex;
+   justify-content: flex-end;
+}
+a{
+    color: pink;
+    margin:2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color:aquamarine;
+    text-decoration: underline;
+}

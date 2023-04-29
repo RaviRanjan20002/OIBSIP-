@@ -1,0 +1,45 @@
+.about{
+    position: relative;
+    margin-top:60px ;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+.box{
+    color:rgb(215, 45, 192);
+     background: url("C:\Users\hp\OneDrive\Documents\oasisinfobyte\task2\src\photos\bg.jpg");
+    width:300px;
+    height:400px;
+    border:2px solid rgb(8, 168, 11);
+    text-align: center;
+    text-decoration: solid;
+    text-transform:uppercase;
+    font-size:25px;
+    background-color: none;
+    border-radius: 10px;
+ 
+    
+}
+.imgg{
+    position: relative;
+    top:10%;
+    height:280px;
+    width:200px;
+    border-radius:5px;
+    animation: imggg ease-in-out 8s infinite;
+}
+@keyframes imggg {
+    100%{
+        transform: translateY(30px);
+    }
+    
+}
+#qf{
+    width:100%;
+    color:blueviolet;
+    text-align: center;
+    position:relative;
+    top:20px;
+    border: 2px solid rgb(19, 160, 185);
+}
